@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    font-family: sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,230,241,1) 0%, rgba(145,192,241,1) 45.5% );
+    padding-bottom: 30px;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+}
+
+.movieContainer{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(243, 245, 244);
+}
+
+.titleDiv{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    color: goldenrod;
+    align-items: center;
+}
+
+.website{
+    font-size: 70px;
+    margin-top: 20px;
+    border-bottom: 5px solid goldenrod;
+    border-left: 5px solid goldenrod;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.roler{
+    width: 80px;
+    height: 80px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.movieTitle{
+    margin: 10px 0 10px 0;
+}
+
+.genre{
+    margin-top: 10px;
+}
+
+
+/* Search Section */
+
+.searchDiv{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    align-items: end;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+
+#form{
+    width: 325px;
+    height: 35px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+}
+
+#searchInput{
+    width: 250px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    gap: 0;
+    background-color: transparent;
+}
+
+#submitBtn{
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+#submitBtn:hover{
+    background-color: rgb(113, 196, 229);
+}
+
+
+/* For Search Input Value */
+
+#movieContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+
+.movieDiv{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(243, 245, 244);
+   
+}
+
+.image{
+    width: 100%;
+    height: 65%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* navbar section */
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid;
+    align-content: center;
+    background-color: blue;
+}
+
+.navbar>div{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    gap: 200px;
+    color: white;
+}
+
+#selector{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#selector>option{
+    color: black;
+}
+
+/* Pagination Section */
+
+.pageBtn{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+#nextBtn, #prevBtn{
+    width: 80px;
+    height: 30px;
+    font-size: medium;
+    background-color: rgb(94, 132, 227);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#nextBtn:hover, #prevBtn:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+#paginated{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+    flex-wrap: nowrap;
+}
+
+#pageNumber{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    gap: 30px;
+}
+
+
+/* Movies Page Section */
+
+
+.button{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: lightskyblue;
+}

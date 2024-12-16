@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Manegement</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="container">
+        <div class="titleDiv">
+            <a href="index.html"><img class="roler" src="Images/movie_role.png" alt="movie role"></a>
+            <a href="index.html"><h1 class="website">Movie Hub</h1></a>
+        </div>
+        <div class="searchDiv">
+            <form id="form">
+                <input type="search" id="searchInput" placeholder="Search movie" required>
+                <input type="submit" value="Search" id="submitBtn">
+            </form>
+        </div>
+        <nav class="navbar">
+           <div>
+            <a href="index.html"><h3>Home</h3></a>
+            <select id="selector" class="select2">
+                <option value="">Genres</option>
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="crime">Crime</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="thriller">Thriller</option>
+                <option value="comedy">Comedy</option>
+                <option value="animation">Animation</option>
+                <option value="war">War</option>
+                <option value="biography">Biography</option>
+                <option value="music">Music</option>
+                <option value="musical">Musical</option>
+            </select>
+            <h3>About</h3>
+           </div>
+        </nav>
+        <div id="content">
+        </div>
+        <div id="movieContainer"></div>
+        <div id="paginated"></div>
+        <div class="pageBtn">
+            <button id="prevBtn">Prev</button>
+            <span id="pageNumber">
+                <span >1</span>
+                <span >2</span>
+                <span >3</span>
+                <span >4</span>
+                <span >5</span>
+                <span >6</span>
+                <span >7</span>
+                <span >8</span>
+                <span >9</span>
+            </span>
+            <button id="nextBtn">Next</button>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
