@@ -4,84 +4,84 @@
             "id": 1,
             "movie": "The Shawshank Redemption",
             "rating": 9.3,
-            "image": "Images/shawshank.jpg",
+            "image": "images/shawshank.jpg",
             "genre": "Drama"
         },
         {
             "id": 2,
             "movie": "The Godfather",
             "rating": 9.2,
-            "image": "Images/godfather.jpg",
+            "image": "images/godfather.jpg",
             "genre": "Crime, Drama"
         },
         {
             "id": 3,
             "movie": "The Dark Knight",
             "rating": 9,
-            "image": "Images/dark_knight.jpg",
+            "image": "images/dark_knight.jpg",
             "genre": "Action, Crime, Drama, Thriller"
         },
         {
             "id": 4,
             "movie": "Pulp Fiction",
             "rating": 8.9,
-            "image": "Images/pulp.jpg",
+            "image": "images/pulp.jpg",
             "genre": "Crime, Drama"
         },
         {
             "id": 5,
             "movie": "The Lord of the Rings: The Return of the King",
             "rating": 9,
-            "image": "Images/tlotr.jpeg",
+            "image": "images/tlotr.jpeg",
             "genre": "Action, Adventure, Drama, Fantasy"
         },
         {
             "id": 6,
             "movie": "The Good, the Bad and the Ugly",
             "rating": 8.8,
-            "image": "Images/the_good_the_bad_and_the_ugly.jpg",
+            "image": "images/the_good_the_bad_and_the_ugly.jpg",
             "genre": "Adventure, Drama, Western"
         },
         {
             "id": 7,
             "movie": "Fight Club",
             "rating": 8.8,
-            "image": "Images/fight_club.jpeg",
+            "image": "images/fight_club.jpeg",
             "genre": "Drama"
         },
         {
             "id": 8,
             "movie": "The Lord of the Rings: Fellowship of the Ring",
             "rating": 8.8,
-            "image": "Images/fellowship.jpg",
+            "image": "images/fellowship.jpg",
             "genre": "Action, Adventure, Drama, Fantasy"
         },
         {
             "id": 9,
             "movie": "Forrest Gump",
             "rating": 8.8,
-            "image": "Images/forrest_gumb.jpeg",
+            "image": "images/forrest_gumb.jpeg",
             "genre": "Drama, Romance"
         },
         {
             "id": 10,
             "movie": "Inception",
             "rating": 8.8,
-            "image": "Images/inception.jpg",
+            "image": "images/inception.jpg",
             "genre": "Action, Adventure, Sci-Fi, Thriller"
         },
         {
             "id": 11,
             "movie": "Interstellar",
             "rating": 8.7,
-            "image": "Images/interstellar.jpg",
+            "image": "images/interstellar.jpg",
             "genre": "Adventure, Drama, Sci-Fi"
         },
         {
             "id": 12,
             "movie": "The Matrix",
             "rating": 8.7,
-            "image": "Images/the_matrix.jpg",
+            "image": "images/the_matrix.jpg",
             "genre": "Action, Sci-Fi"
         },
         {
@@ -277,7 +277,7 @@
             "id": 40,
             "movie": "Venom",
             "rating": 6.6,
-            "image": "Images/venom.jpg",
+            "image": "images/venom.jpg",
             "genre": "Action, Adventure, Sci-Fi"
         },
         {
@@ -326,7 +326,7 @@
             "id": 47,
             "movie": "Guardians of the Galaxy",
             "rating": 8,
-            "image": "Images/Guardians_of-the_Galaxy.jpg",
+            "image": "images/Guardians_of-the_Galaxy.jpg",
             "genre": "Action, Adventure, Sci-Fi, Comedy"
         },
         {
@@ -347,14 +347,14 @@
             "id": 50,
             "movie": "Venom: Let There Be Carnage",
             "rating": 5.9,
-            "image": "Images/venom_2.jpg",
+            "image": "images/venom_2.jpg",
             "genre": "Action, Sci-Fi, Thriller"
         },
         {
             "id": 51,
             "movie": "Spider-Man",
             "rating": 7.4,
-            "image": "Images/spider-man.jpg",
+            "image": "images/spider-man.jpg",
             "genre": "Action, Adventure, Sci-Fi"
         },
         {
@@ -571,7 +571,7 @@
             "id": 82,
             "movie": "Black Panther",
             "rating": 7.3,
-            "image": "Images/black-panther.jpg",
+            "image": "images/black-panther.jpg",
             "genre": "Adventure, Action, Sci-Fi"
         },
         {
@@ -599,7 +599,7 @@
             "id": 86,
             "movie": "The Incredibles 2",
             "rating": 7.5,
-            "image": "Images/The_Incredibles_2.jpeg",
+            "image": "images/The_Incredibles_2.jpeg",
             "genre": "Animation, Action, Adventure, Comedy, Family, Sci-Fi"
         },
         {
@@ -620,7 +620,7 @@
             "id": 89,
             "movie": "Venom: The Last Dance",
             "rating": 6.2,
-            "image": "Images/venom_3.jpg",
+            "image": "images/venom_3.jpg",
             "genre": "Action, Adventure, Sci-Fi, Thriller"
         },
         {
@@ -669,7 +669,7 @@
             "id": 96,
             "movie": "The Incredible Hulk 2003",
             "rating": 5.6,
-            "image": "Images/incredible_hulk.jpg",
+            "image": "images/incredible_hulk.jpg",
             "genre": "Action, Sci-Fi"
         },
         {
