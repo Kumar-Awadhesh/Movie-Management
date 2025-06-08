@@ -1,0 +1,42 @@
+.container{
+    width: 90%;
+    margin: auto;
+    border: 1px solid;
+}
+
+.container>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.movie-container>div>img{
+    width: 300px;
+    height: 300px;
+}
+
+.movie-container>div{
+    border: 1px solid;
+}
+
+.load-more{
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.load-more>button{
+  width: 100px;
+  height: 45px; 
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  background-color: lightgreen;
+}
+
+.load-more>button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
