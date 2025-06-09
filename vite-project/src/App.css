@@ -1,10 +1,24 @@
 .container{
     width: 90%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
 }
 
-.container>div{
+.title{
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.title>h1{
+  color: darkcyan;
+  font-size: 40px;
+}
+
+.movie-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
