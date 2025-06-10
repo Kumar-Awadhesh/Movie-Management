@@ -7,12 +7,14 @@ function App() {
   const [movies, setMovies] = useState([]);
   const [page, setPage] = useState(1);
   const [input, setInput] = useState("")
+  const [loading, setLoading] = useState(false);
   let perPage = 12;
 
   const fetchMovies = async(page) => {
     try {
       const response = await axios.get(`https://movie-hub-backend-w0l9.onrender.com/movies?_page=${page}&_perPage=${perPage}`)
       setMovies(prev => [...prev, ...response.data.Movies]);
+      setLoading(true);
     } 
     catch (err) {
       console.error("errer in fetching movies", err);
@@ -63,27 +65,30 @@ function App() {
 
   return (
     <>
-      <main className='container'>
-        <div className='title'>
-          <h1>Movie Theatre</h1>
-        </div>
-        <div className='search-bar'>
-          <input type="text" placeholder='Search movie...' required value={input} onChange={(e) => {setInput(e.target.value)}}/>
-          <button onClick={searchMovie}>Search</button>
-        </div>
-        <div className='movie-container'>
-          {movies.map((ele, index) =>(
-            <div key={index}>
-              <img src={`https://movie-hub-backend-w0l9.onrender.com${ele.image}`} alt="" />
-              <h2>Moive Name: {ele.movie}</h2>
-              <h3>Released Year: {ele.released}</h3>
-            </div>
-          ))}
-        </div>
-        <div className='load-more'>
-          <button onClick={loadMore}>Load More</button>
-        </div>
-      </main>
+      { loading &&
+        <main className='container'>
+          <div className='title'>
+            <h1>Movie Theatre</h1>
+          </div>
+          <div className='search-bar'>
+            <input type="text" placeholder='Search movie...' required value={input} onChange={(e) => {setInput(e.target.value)}}/>
+            <button onClick={searchMovie}>Search</button>
+          </div>
+          <div className='movie-container'>
+            {movies.map((ele, index) =>(
+              <div key={index}>
+                <img src={`https://movie-hub-backend-w0l9.onrender.com${ele.image}`} alt="" />
+                <h2>Moive Name: {ele.movie}</h2>
+                <h3>Released Year: {ele.released}</h3>
+              </div>
+            ))}
+          </div>
+          <div className='load-more'>
+            <button onClick={loadMore}>Load More</button>
+          </div>
+        </main> ||
+        <div><h2>Loading...</h2></div>
+      }
     </>
   )
 }
